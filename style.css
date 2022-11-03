@@ -1,0 +1,204 @@
+table {
+  color: rgb(24, 24, 24);
+}
+.button1 {
+  width: 20%;
+  height: 75%;
+  border-radius: 5%;
+border: 2px solid rgb(255, 251, 251);
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 0 auto;
+  display: block;
+  background-color: rgb(156, 156, 156);
+  padding: 15px 32px;
+  font-size: 22px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button1:hover {
+ background: #e37b72;
+}
+.privet {
+  font-size: 350%;
+  
+  color: rgb(234, 234, 241);
+  text-align: center;
+}
+html tr {
+  color: rgb(255, 252, 252);
+}
+
+html table {
+  background-color: #fff;
+}
+html tr {
+  background-color: black;
+}
+
+
+.all_body {
+background-color: black;
+font-family: 'Courier New', Courier, monospace;
+
+}
+nav {
+  width: 960px;
+  margin: 0 auto;
+
+}
+nav:before {
+content: '';
+display: block;
+height: 50px;
+width: 100%;
+background: rgb(96, 92, 92);
+position: absolute;
+left: 0;
+z-index: -1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 50px;
+
+}
+ul li {
+float: left;
+}
+
+ul li a{
+color: #fff;
+display: block;
+height: 50px;
+padding:0 30px;
+text-transform: uppercase;
+text-decoration: none;
+line-height: 50px;
+}
+
+ul li a:hover {
+  background: #d34d43;
+}
+
+
+.imgkrinya {
+  width: 350px;
+  height: 330px;
+  border-radius: 60%;
+  border-style: groove;
+  border-top: 19px;
+  border-color: rgb(114, 219, 219);
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+.p1{
+  color: #fff;
+  font-size: 32px;
+text-align: center;
+}
+.footer1 {
+  color: #fff;
+  font-size: 15px;
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.pop {
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ border: 5px solid;
+ border-width: 5%;
+ height: auto;
+ width: 100px;
+text-align: center;
+ border-radius: 7%;
+ border-color: #fff;
+}
+
+
+#blink {
+	-webkit-animation: blink 2s linear infinite; 
+	animation: blink 2s linear infinite; 
+	font-weight: bold; 
+	color: #F00; 
+}
+
+@-webkit-keyframes blink { 
+	0% { color: #F00; }
+	50% { color: #FBB; }
+	100% { color: #F00; }
+}
+
+@keyframes blink {  
+	0% { color: #F00; }
+	50% { color: #FBB; }
+	100% { color: #F00; } 
+}
+
+.h1_blink {
+  text-align: center;
+  font-size: 65px;
+}
+
+.rate1 {
+  height: auto;
+  float: inline-end;
+  width: 20%; /* Ширина картинок опционально */  
+  margin: 1%;/* Отступы */
+  border: 1px;
+  text-align: center;
+  display: inline-block;
+}
+
+.h1_volonterstvo {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 50px;
+  text-transform: lowercase;
+  text-shadow: 4px 1px 2px rgb(239, 73, 101);
+  text-align: center;
+}
+.p_volonterstvo {
+  color: #fff;
+font-size: 41px;
+}
+.img_volonterstvoOSNOVA {
+  height: 450px;
+  width: 640px;
+  margin-left: 25%;
+  border: 4px solid #8b8888;
+  border-radius: 5%;
+}
+.leftimg {
+  float:left; /* Выравнивание по левому краю */
+  margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+  height: 200px;
+  width: 250px;
+ }
+
+
+ 
+
+/*ставимо у лінію*/
+
+.card{
+  display: flex; /* https://css.in.ua/css/property/display */ 
+  /*https://webdoky.org/uk/docs/Web/CSS/display/#syntaksys*/
+}
+
+.card-block{
+  width: 200px;
+  height: 150px;
+  border: 1px solid;
+  margin-left: 80px; /* https://css.in.ua/css/property/margin-left */
+}
+
+.transparent {
+  width: 100%;
+  height: 200px;
+  background: transparent;
+}
+
